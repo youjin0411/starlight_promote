@@ -1,14 +1,21 @@
 *{
     font-family: 'Do Hyeon', sans-serif;
 }
+html{
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+}
 body {
     margin: 0;
     background-image: url('../이미지/backgroundimg.png');
     background-repeat: no-repeat;
     height: 100%;   
+    min-height: 100%;
 }
 .contain{
-    
+    height: 100%;
+    max-width: 100%;
 }
 .board-image{
     /* background 이미지 지정  */
@@ -19,7 +26,7 @@ body {
     height: 38.5972vw;
     margin: 0 auto;
     margin-top: 4vw;
-    margin-bottom: 10vw;
+    margin-bottom: 30vw;
 }   
 .title_text{
     display: flex;
@@ -201,3 +208,33 @@ body {
     transform: rotate(2deg);
 }
 
+/*** FOOTER ***/
+.callby{
+    position: relative;
+    left: 6vw;
+    bottom: 6.5vw;
+    background-image: url('../이미지/callby.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28vw;
+    height: 11vw;
+}
+.pen{
+    position: relative;
+    left: 25vw;
+    bottom: 6.5vw;
+    background-image: url('../이미지/pen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 3vw;
+}
+.footer {
+    width: 100%;    
+    background-image: url('../이미지/footerback.png');
+    min-height: 20vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;   
+}
