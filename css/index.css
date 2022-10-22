@@ -1,0 +1,88 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url('../이미지/backgroundimg.png');
+    background-repeat: no-repeat;
+}
+.board-image{
+    /* background 이미지 지정  */
+    background: url("../이미지/main_board.png") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60.0556vw;
+    height: 38.5972vw;
+    margin: 0 auto;
+    margin-top: 4vw;
+}   
+.title_text{
+    display: flex;
+    justify-content: center;
+}
+.board_text{
+    font-size: 2.5em;
+    text-align: center;
+}
+#text1{
+    background-image: url('../이미지/text_box1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem;
+    transform: rotate(7deg);
+}
+#text2{
+    background-image: url('../이미지/text_box2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem;
+    transform: rotate(-8deg);
+}
+#text3{
+    background-image: url('../이미지/text_box3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem;
+    /* 이미지 각도 조절하기 */
+    transform: rotate(1deg);
+}
+#text4{
+    background-image: url('../이미지/text_box4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem;
+    transform: rotate(-7deg);
+}
+#text5{
+    background-image: url('../이미지/text_box5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem;
+    transform: rotate(7deg);
+}
+.foot{
+    position:relative
+}
+.footprint{
+    position:absolute;
+    background-image: url('../이미지/footprint.png');
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vw;
+}
+#foot1{
+    transform: rotate(7deg);
+    top: 2vw;
+}
+#foot2{
+    transform: rotate(7deg);
+    top: 3vw;
+}
+#foot2{
+    transform: rotate(7deg);
+    top: 40vw;
+}
+#foot2{
+    transform: rotate(7deg);
+    top: 10vw;
+}
