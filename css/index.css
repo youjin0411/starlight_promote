@@ -5,6 +5,10 @@ body {
     margin: 0;
     background-image: url('../이미지/backgroundimg.png');
     background-repeat: no-repeat;
+    height: 100%;   
+}
+.contain{
+    
 }
 .board-image{
     /* background 이미지 지정  */
@@ -15,34 +19,36 @@ body {
     height: 38.5972vw;
     margin: 0 auto;
     margin-top: 4vw;
+    margin-bottom: 10vw;
 }   
 .title_text{
     display: flex;
     justify-content: center;
 }
 .board_text{
-    font-size: 2.5em;
+    font-size: 3.2vw;
+    margin: 0.15vw;
     text-align: center;
 }
 #text1{
     background-image: url('../이미지/text_box1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.7rem;
-    transform: rotate(7deg);
+    padding: 1vw;
+    transform: rotate(4deg);
 }
 #text2{
     background-image: url('../이미지/text_box2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.7rem;
+    padding: 1vw;
     transform: rotate(-8deg);
 }
 #text3{
     background-image: url('../이미지/text_box3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.7rem;
+    padding: 1vw;
     /* 이미지 각도 조절하기 */
     transform: rotate(1deg);
 }
@@ -50,7 +56,7 @@ body {
     background-image: url('../이미지/text_box4.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.7rem;
+    padding: 1vw;
     transform: rotate(-7deg);
 }
 #text5{
@@ -61,28 +67,137 @@ body {
     transform: rotate(7deg);
 }
 .foot{
-    position:relative
+    margin-top: 5vw;
+    margin-left: 2vw;
+    height: 64%;
 }
-.footprint{
-    position:absolute;
-    background-image: url('../이미지/footprint.png');
+.footprint_r{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../이미지/footprint1.png');
     background-repeat: no-repeat;
-    width: 3vw;
-    height: 6vw;
+    width: 1.7vw;
+    height: 3.7vw;
+}
+.footprint_l{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../이미지/footprint2.png');
+    background-repeat: no-repeat;
+    width: 1.7vw;
+    height: 4.2vw;
 }
 #foot1{
-    transform: rotate(7deg);
-    top: 2vw;
+    transform: rotate(-10deg);
+    left: 5vw;
+    z-index: 1;
 }
 #foot2{
     transform: rotate(7deg);
-    top: 3vw;
+     z-index: 2;
+     top: -2vw;
+     left: 1.5vw;
 }
-#foot2{
-    transform: rotate(7deg);
-    top: 40vw;
+#foot3{
+    transform: rotate(10deg);
+    left: 5vw;
+    z-index: 3;
+    top: -16vw;
+    bottom: 5vw;
 }
-#foot2{
-    transform: rotate(7deg);
-    top: 10vw;
+#foot4{
+    transform: rotate(-20deg);
+    bottom: 7vw;
+    z-index: 4;
+    left: 1.6vw;
+    top: -16vw;
 }
+.main_img1{
+    background-image: url('../이미지/main_img2.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11.9271vw;
+    height: 11.1632vw;
+    left: 8vw;
+    top: -1.5vw;
+    bottom: 3vw;
+    border: solid #E2D3B3;
+    border-width: 0.7vw;
+    padding: 0;
+    transform: rotate(-6deg)
+}
+.main_img2{
+    background-image: url('../이미지/main_img1.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11.9271vw;
+    height: 10.1632vw;
+    right: 5vw;
+    left: 15vw;
+    top: -33vw;
+    transform: rotate(13deg);
+    border: solid #E2D3B3;
+    border-width: 0.7vw;
+}
+.line{
+    background-image: url('../이미지/line.png');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13.0083vw;
+    height: 25.5972vw;
+    left: 24vw;
+    top: -48.5vw;
+}
+.button{
+    position: relative;
+    padding: 0;
+    left: 40vw;
+    bottom: 74.5vw;
+    height: 10vw;
+    margin: 0;
+    width: 10vw;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:1.3vw;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 8.5vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.button>:nth-child(2){
+    transform: rotate(-3deg);
+}
+.button>:nth-child(3){
+    transform: rotate(3deg);
+}
+.button>:nth-child(4){
+    transform: rotate(2deg);
+}
+
