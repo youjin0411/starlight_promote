@@ -34,7 +34,7 @@ body {
 }
 .board_text{
     font-size: 3.2vw;
-    margin: 0.15vw;
+    /* margin: 0.15vw; */
     text-align: center;
 }
 #text1{
@@ -70,11 +70,11 @@ body {
     background-image: url('../이미지/text_box5.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.7rem;
+    padding: 1vw;
     transform: rotate(7deg);
 }
 .foot{
-    margin-top: 5vw;
+    margin-top: 3vw;
     margin-left: 2vw;
     height: 64%;
 }
@@ -166,7 +166,7 @@ body {
 .button{
     position: relative;
     padding: 0;
-    left: 40vw;
+    left: 38vw;
     bottom: 74.5vw;
     height: 10vw;
     margin: 0;
@@ -177,18 +177,18 @@ body {
 	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
 	background-color:transparent;
-	border:2px solid #000000;
+	border: 3px solid #000000;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-size:1.3vw;
+	font-size: 1.1rem;
 	font-weight:bold;
-	padding:6px 24px;
+	padding: 6px 26px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
-    width: 8.5vw;
+    width: 10vw;
     text-align: center;
-    margin-bottom: 3vw;
+    margin-bottom: 2.5vw;
 }
 .myButton:hover {
 	background-color:transparent;
@@ -219,6 +219,9 @@ body {
     width: 28vw;
     height: 11vw;
 }
+.callby:hover{
+    transform: rotate( -4deg );
+}
 .pen{
     position: relative;
     left: 25vw;
@@ -229,6 +232,9 @@ body {
     width: 17vw;
     height: 3vw;
 }
+.pen:hover{
+    transform: rotate( -4deg );
+}
 .footer {
     width: 100%;    
     background-image: url('../이미지/footerback.png');
@@ -238,3 +244,211 @@ body {
     bottom: 0;
     width: 100%;   
 }
+ @media screen and (max-width:1020px){
+    .foot{
+        margin-top: 0.5vw;
+        margin-left: 2vw;
+        height: 100%;
+    }
+ }
+
+  @media screen and (max-width:980px){
+    .board-image{
+        width: 68.0556vw;
+        height: 43.5972vw;
+        margin: 0 auto;
+        margin-top: 4vw;
+        margin-bottom: 25vw;
+    }   
+    .foot{
+        margin-top: -2vw;
+        top: -10vw;
+    }
+    .footprint_r{
+        width: 1.9vw;
+        height: 3.9vw;
+    }
+    .footprint_l{
+        width: 1.7vw;
+        height: 3.7vw;
+    }
+    #foot2{
+        top: -2vw;
+    }
+    #foot3{
+        left: 5vw;
+        top: -20vw;
+        bottom: 5vw;
+    }
+    #foot4{
+        top: -20vw;
+    }
+    .button{
+        position: relative;
+        padding: 0;
+        left: 40vw;
+        bottom: 70.5vw;
+        margin: 0;
+        width: 2vw;
+        margin-top: -8.5vw;
+        top: -72vw;
+    }
+    .myButton{
+        font-size:0.8em;
+        margin-bottom: 1.5vw;
+
+    }
+    .main_img1{
+        width: 14.9271vw;
+        height: 13.1632vw;
+        bottom: 1rem;
+        top: 1rem;
+    }
+    .main_img2{
+        width: 13.9271vw;
+        height: 12.1632vw;
+        top: -36vw;
+    }
+    .line{
+        margin-top: 3vw;
+        left: 24vw;
+        top: -52.5vw;
+    }
+ }
+
+ @media screen and (max-width:640px){
+    .board-image{
+        width: 87.0556vw;
+        height: 60.5972vw;
+        margin: 0 auto;
+        margin-top: 4vw;
+        margin-bottom: 15vw;
+    }   
+    .foot{
+        margin-top: -2vw;
+        top: -16vw;
+    }
+    .footprint_r{
+        width: 2.1vw;
+        height: 4.1vw;
+    }
+    .footprint_l{
+        width: 1.9vw;
+        height: 4.4vw;
+    }
+    #foot2{
+        top: 1vw;
+    }
+    #foot3{
+        left: 5vw;
+        top: -20vw;
+        bottom: 5vw;
+    }
+    #foot4{
+        top: -20vw;
+    }
+    .button{
+        position: relative;
+        padding: 0;
+        left: 49vw;
+        bottom: 70.5vw;
+        margin: 0;
+        width: 2vw;
+        margin-top: -8.5vw;
+        top: -78.6vw;
+    }
+    .myButton{
+        font-size:0.1em;
+        margin-bottom: 1.3vw;
+        border: 3px solid #000000;
+        padding: 3px 26px;
+        width: 12vw;
+    }
+    .main_img1{
+        width: 19.9271vw;
+        height: 18.1632vw;
+        bottom: 2rem;
+        top: 2rem;
+    }
+    .main_img2{
+        width: 17.9271vw;
+        height: 16.1632vw;
+        top: -44vw;
+    }
+    .line{
+        margin-top: 2vw;
+        left: 28vw;
+        top: -58.47vw;
+        transform: rotate(10deg);
+    }
+ }
+
+ @media screen and (max-width:460px){
+    .board-image{
+        width: 87.0556vw;
+        height: 60.5972vw;
+        margin: 0 auto;
+        margin-top: 4vw;
+        margin-bottom:  1.2vw;
+    }   
+    .foot{
+        margin-top: -7vw;
+        top: -20vw;
+    }
+    .footprint_r{
+        width: 2.1vw;
+        height: 4.1vw;
+    }
+    .footprint_l{
+        width: 1.9vw;
+        height: 4.4vw;
+    }
+    #foot1{
+        top: 2vw;
+    }
+    #foot2{
+        top: 1vw;
+    }
+    #foot3{
+        left: 5vw;
+        top: -20vw;
+        bottom: 5vw;
+    }
+    #foot4{
+        top: -20vw;
+    }
+    .button{
+        position: relative;
+        padding: 0;
+        left: 53vw;
+        bottom: 70.5vw;
+        margin: 0;
+        width: 2vw;
+        margin-top: -17.5vw;
+        top: -84.6vw;
+    }
+    .myButton{
+        font-size: 7px;
+        margin-bottom: 1.3vw;
+        border: 3px solid #000000;
+        padding: 3px 26px;
+        width: 10vw;
+    }
+    .main_img1{
+        width: 19.9271vw;
+        height: 18.1632vw;
+        bottom: 2rem;
+        top: 1rem;
+    }
+    .main_img2{
+        width: 17.9271vw;
+        height: 16.1632vw;
+        top: -48vw;
+    }
+    .line{
+        margin-top: 2vw;
+        left: 32vw;
+        top: -63.47vw;
+        transform: rotate(10deg);
+    }
+ }
