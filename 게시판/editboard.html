@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../게시판/editboard.css">
+    <title>별빛신사리</title>
+</head>
+<body>
+    <div class="title_text">
+        <div class="board_text" id="text1">별</div>
+        <div class="board_text" id="text2">빛</div>
+        <div class="board_text" id="text3">신</div>
+        <div class="board_text" id="text4">사</div>
+        <div class="board_text" id="text5">리</div>
+    </div>
+    <div class="button">
+        <a href="#" class="myButton">상권 둘러보기</a>
+        <a href="#" class="myButton">별빛신사리??</a>
+        <a href="#" class="myButton">게시판</a>
+        <a href="#" class="myButton">play game!</a>
+    </div>
+    <div class="editboard">
+        <div id="selector">
+            <div id="header">
+                <div class="header_edit">제목 : </div>
+                <input type="text" placeholder="000점포 등록 신청합니다." class="input">
+            </div>
+            <div class="button2">
+                <a href="#" class="myButton2">점포 신청</a>
+                <a href="#" class="myButton2">방문 리뷰</a>
+            </div>
+            <div class="edittext">
+                <div class="header_edit">작성자 : </div>
+                <input type="text" placeholder="000" class="input">
+                <div class="header_edit">점포 이름 : </div>
+                <input type="text" placeholder="000점포" class="input">
+                <div class="header_edit">점포 한줄 설명 : </div>
+                <input type="text" placeholder="예) 한번 먹으면 절대 잊을 수 없는 맛 " class="input">
+                <div class="header_edit">점포 특징1 : </div>
+                <input type="text" placeholder="예) 양이 푸짐하고 맛있어요" class="input">
+                <div class="header_edit">점포 특징1 : </div>
+                <input type="text" placeholder="예) 친절한 사장님이 정성껏 만든 음식입니다!" class="input">
+                <div class="header_edit">위치 : </div>
+                <input type="text" placeholder="서울시 관악구..." class="input"> 
+                <div class="header_edit">운영 시간 : </div>
+                <input type="text" placeholder="예) 01:00-12:00" class="input"> 
+                <div class="header_edit">전화 번호 : </div>
+                <input type="text" placeholder="예) 000-0000-0000" class="input"> 
+                <div class="header_edit">점포 설명 : </div>
+                <input type="text" placeholder="우리 점포만의 특징을 자유롭게 작성해주세요!" class="input"> 
+                <div class="header_edit">사진 : </div>
+                <div style="display:flex">
+                    <img id="preview" style="width: 10vw; height: 10vw; border: #000" />
+                    <input class = "file" type="file" onchange="readURL(this);"> 
+                </div>
+            </div>
+            <button class="save" type="button">등록</button>
+            </div>
+    </div>
+
+    <!-- footer 영역 -->   
+     <footer class="footer">
+        <figure class="callby"></figure>
+        <figure class="pen"></figure>
+     </footer>
+     <script src="../게시판/noticeboard.js"></script>
+</body>
+</html> 
