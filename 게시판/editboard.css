@@ -1,0 +1,225 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+@import url('https://webfontworld.github.io/jeju/JejuHallasan.css');
+
+@font-face {
+    font-family: 'JejuHallasan';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.ttf') format("truetype");
+    font-display: swap;
+}
+html{
+	position: relative;
+	margin: 0;
+    background-image: url('../이미지/backgroundimg.png');
+    background-repeat: no-repeat;
+}
+
+/* header 글자  */
+.title_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.7285vw;
+}
+.board_text{
+    font-size: 3.2vw;
+    /* margin: 0.15vw; */
+    text-align: center;
+}
+#text1{
+    background-image: url('../이미지/text_box1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(4deg);
+}
+#text2{
+    background-image: url('../이미지/text_box2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-8deg);
+}
+#text3{
+    background-image: url('../이미지/text_box3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    /* 이미지 각도 조절하기 */
+    transform: rotate(1deg);
+}
+#text4{
+    background-image: url('../이미지/text_box4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-7deg);
+}
+#text5{
+    background-image: url('../이미지/text_box5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(7deg);
+}   
+
+.button{
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4.7vw;
+
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border: 2.8px solid #000000;
+	cursor:pointer;
+	color:#000000;
+	font-size: 1.3vw;
+	font-weight: 500;
+	padding: 6px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton:hover {
+	background-color:transparent;
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button > :nth-child(3){
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+}
+
+.editboard{
+    background-image: url('../이미지/boardedit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 48vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+#header{
+    display: flex;
+    margin-top: -16vw;
+    border: solid #90876E;
+    border-width: 0.2vw;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    width: 42vw;
+    margin-bottom: 1vw;
+    margin-top: 0vw;
+    margin-left: 3vw;
+}
+.edittext{
+    margin-top: 3vw;
+    margin-left: 4vw;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-row-gap: 0.5vw;
+}
+.header_edit{
+    color: #8D6A5A;
+}
+.input{
+    margin-left: 1vw;
+    background-color: #ffffff00;
+    border: #ffffff00;
+    color: #8D6A5A;
+}   
+.input:focus{
+    outline: none;
+}
+
+.button2{
+    float: right;
+    display: grid;
+    grid-template-columns: 50% repeat(2, 20%);
+    grid-column-gap: 0.5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.myButton2 {
+    float: right;
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border: 1.7px solid #000000;
+	cursor:pointer;
+	color:#000000;
+	font-size: 0.6vw;
+	font-weight: 500;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 5vw;
+    text-align: center;
+}
+
+.myButton2:hover {
+	background-color:transparent;
+    background-color: #947c7c7f;    
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.button2 > :nth-child(1){
+    background-color: #947c7c7f;
+}
+.preview{
+    border: solid #000;
+    color: #000;
+    background-color: #000;
+}
+.save{
+    display: flex;
+    float: right;
+    width: 6vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff42;
+    margin-right: 1vw;
+}
+.file{
+    background-color: #ffffff00;
+}
+/* footer */
+.footer {
+    width: 100%;    
+    background-image: url('../이미지/footerback.png');
+    height: 15vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+}
