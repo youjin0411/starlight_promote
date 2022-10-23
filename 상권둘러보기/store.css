@@ -1,0 +1,230 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+@import url('https://webfontworld.github.io/jeju/JejuHallasan.css');
+
+@font-face {
+    font-family: 'JejuHallasan';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.ttf') format("truetype");
+    font-display: swap;
+}
+html{
+	position: relative;
+	margin: 0;
+    background-image: url('../이미지/backgroundimg.png');
+   
+}
+/* header 글자  */
+.title_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.7285vw;
+}
+.board_text{
+    font-size: 3.2vw;
+    /* margin: 0.15vw; */
+    text-align: center;
+}
+#text1{
+    background-image: url('../이미지/text_box1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(4deg);
+}
+#text2{
+    background-image: url('../이미지/text_box2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-8deg);
+}
+#text3{
+    background-image: url('../이미지/text_box3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    /* 이미지 각도 조절하기 */
+    transform: rotate(1deg);
+}
+#text4{
+    background-image: url('../이미지/text_box4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-7deg);
+}
+#text5{
+    background-image: url('../이미지/text_box5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(7deg);
+}  
+.button{
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    margin-top: 4.7vw;
+
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border: 2.8px solid #000000;
+	cursor:pointer;
+	color:#000000;
+	font-size: 1.3vw;
+	font-weight: 500;
+	padding: 0.4167vw 1.8056vw;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton:hover {
+	background-color:transparent;
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button > :nth-child(1){
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+}
+/*매장 소개*/
+.stores1{
+    display: flex;
+}
+
+.store1{
+    background-image:url('../이미지/store.png');
+    width: 383px;
+    height: 510px;
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 7em;
+    position: relative;
+}
+.stores2{
+    display: flex;
+    
+}
+.store2{
+    background-image:url('../이미지/store.png');
+    width: 383px;
+    height: 510px;
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 88px;
+    position: relative;
+    left: 18%;
+}
+.stores3{
+    display: flex;
+    
+}
+.store3{
+    background-image:url('../이미지/store.png');
+    width: 383px;
+    height: 510px;
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 88px;
+    position: relative;
+}
+.title{
+    border: 8px double black;
+    border-left: hidden;
+    border-right: hidden;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    padding: 2.8%;
+}
+.storeImgBack{
+    width: 436px;
+    height: 177px;
+    top: 25%;
+    text-align: center;
+    position: relative;
+}
+.storeImg{
+    position: absolute;
+    top: 22px;
+    left: 65px;
+
+}
+.subTitle{
+    font-size: 23px;
+}
+.content1{
+    margin-top: 3%;
+    position: relative;
+}
+.content1txt{
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    width: 65%;
+    color: #BDBDBD;
+    transform: rotate(-3deg);
+}
+.content2{
+    top: 3%;
+    left: 7%;
+    position: relative;
+}
+.content2txt{
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    width: 65%;
+    color: #BDBDBD;
+    transform: rotate(3deg);
+}
+.nextBtn{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    padding: 3.5%;
+}
+.left{
+    margin: 1%;
+}
+.right{
+    margin: 1%;
+}
+.control1{
+    margin: 1em;
+}
+.bottom{
+    background-image: url('../이미지/bottom.png');
+}
