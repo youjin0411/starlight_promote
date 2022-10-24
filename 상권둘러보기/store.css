@@ -15,6 +15,10 @@
         url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.ttf') format("truetype");
     font-display: swap;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 html{
 	position: relative;
 	margin: 0;
@@ -156,6 +160,9 @@ html{
     margin-top: 88px;
     position: relative;
 }
+.search{
+    float: right;
+}
 .title{
     border: 8px double black;
     border-left: hidden;
@@ -209,6 +216,11 @@ html{
     width: 65%;
     color: #BDBDBD;
     transform: rotate(3deg);
+}
+.search2{
+    position: absolute;
+    bottom: -2.7em;
+    right: 0;
 }
 .nextBtn{
     display : flex;

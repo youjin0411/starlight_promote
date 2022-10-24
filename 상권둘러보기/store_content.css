@@ -1,0 +1,124 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+@import url('https://webfontworld.github.io/jeju/JejuHallasan.css');
+
+@font-face {
+    font-family: 'JejuHallasan';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/jeju/JejuHallasan.ttf') format("truetype");
+    font-display: swap;
+}
+html{
+	position: relative;
+	margin: 0;
+    background-image: url('../이미지/backgroundimg.png');
+}
+.content_bg{
+    display: flex;
+    justify-content: center;
+}
+/* header 글자  */
+.title_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.7285vw;
+}
+.board_text{
+    font-size: 3.2vw;
+    /* margin: 0.15vw; */
+    text-align: center;
+}
+#text1{
+    background-image: url('../이미지/text_box1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(4deg);
+}
+#text2{
+    background-image: url('../이미지/text_box2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-8deg);
+}
+#text3{
+    background-image: url('../이미지/text_box3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    /* 이미지 각도 조절하기 */
+    transform: rotate(1deg);
+}
+#text4{
+    background-image: url('../이미지/text_box4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-7deg);
+}
+#text5{
+    background-image: url('../이미지/text_box5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(7deg);
+}
+.back{
+    position: absolute;
+    left: 23vw;
+    top: 15vw;
+}
+.title{
+    border: 8px double black;
+    border-left: hidden;
+    border-right: hidden;
+    position: absolute;
+    text-align: center;
+    top: 14%;
+    left: 50%;
+    width: 15%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    padding: 1%;
+}
+.content_img{
+    position: relative;
+}
+.img_back{
+    position: absolute;
+    top: 10%;
+    right: 10vw;
+}
+.img_back2{
+    position: absolute;
+    top: 23%;
+    right: 35vw;
+}
+.img_back3{
+    position: absolute;
+    top: 45%;
+    right: 5vw;
+}
+.store_img{
+    position: absolute;
+    top: 7%;
+    right: 1.8vw;
+}
+.content_txt{
+    position: absolute;
+    bottom: 2%;
+    transform: translateX(-117%);
+}
+p{
+    color: #EDDAC5;
+    font-size: 24px;
+
+}
