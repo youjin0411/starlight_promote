@@ -132,8 +132,8 @@ ul{
     grid-template-columns: repeat(4, 1fr);
 }
 li{
-    width: 8vw;
-    height: 8vw;
+    width: 105px;
+    height: 100.6px;
     border: 1px solid #000000;
     color: #ffffff;
     background: url('../이미지/main_img1.jpg');
