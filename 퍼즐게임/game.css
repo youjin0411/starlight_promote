@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+html{
+	position: relative;
+	margin: 0;
+    background-image: url('../이미지/backgroundimg.png');
+    background-repeat: no-repeat;
+}
+
+/* header 글자  */
+.title_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.7285vw;
+}
+.board_text{
+    font-size: 3.2vw;
+    /* margin: 0.15vw; */
+    text-align: center;
+}
+#text1{
+    background-image: url('../이미지/text_box1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(4deg);
+}
+#text2{
+    background-image: url('../이미지/text_box2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-8deg);
+}
+#text3{
+    background-image: url('../이미지/text_box3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    /* 이미지 각도 조절하기 */
+    transform: rotate(1deg);
+}
+#text4{
+    background-image: url('../이미지/text_box4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(-7deg);
+}
+#text5{
+    background-image: url('../이미지/text_box5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+    transform: rotate(7deg);
+}   
+
+.button{
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    margin-top: 4.7vw;
+
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border: 2.8px solid #000000;
+	cursor:pointer;
+	color:#000000;
+	font-size: 1.3vw;
+	font-weight: 500;
+	padding: 0.4167vw 1.8056vw;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton:hover {
+	background-color:transparent;
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button > :nth-child(4){
+    border: solid #ffffff;
+    background-color: #461f1f96;
+    color: #ffffff;
+}
+
+.puzzel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #372b25;
+    font-size: 3vw;
+    margin-bottom: 10vw;
+}
+.wrap-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40vw;
+}
+.play-time{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #896656;
+}
+ul{
+    margin-top: 1rem;
+    list-style: none;
+    border: 2px solid #896656;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+li{
+    width: 8vw;
+    height: 8vw;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background: url('../이미지/main_img1.jpg');
+}
+
+.start-button{
+    background-color: #896656;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.game-text{
+    position: absolute;
+    font-size: 45px;
+    color: #67c23a;
+    text-shadow: 1px 1px rgba(0,0,0,0,5);
+    display: none;
+}
+
+.list0 {
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.list1 {
+    background-position-x: -100px;
+    background-position-y: 0px;
+}
+.list2 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+}
+.list3 {
+    background-position-x: -300px;
+    background-position-y: 0px;
+}
+.list4 {
+    background-position-x: 0px;
+    background-position-y: -100px;
+}
+.list5 {
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+.list6 {
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+.list7 {
+    background-position-x: -300px;
+    background-position-y: -100px;
+}
+.list8 {
+    background-position-x: 0px;
+    background-position-y: -200px;
+}
+.list9 {
+    background-position-x: -100px;
+    background-position-y: -200px;
+}
+.list10 {
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+.list11 {
+    background-position-x: -300px;
+    background-position-y: -200px;
+}
+.list12 {
+    background-position-x: 0px;
+    background-position-y: -300px;
+}
+.list13 {
+    background-position-x: -100px;
+    background-position-y: -300px;
+}
+.list14 {
+    background-position-x: -200px;
+    background-position-y: -300px;
+}
+.list15 {
+    background-position-x: -300px;
+    background-position-y: -300px;
+}
+
+.footer {
+    width: 100%;    
+    background-image: url('../이미지/footerback.png');
+    height: 20vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+}
+
+@media screen and (max-width: 651px){
+    .puzzel{
+        font-size: 3.6vw;
+        margin-top: 10vw;
+        margin-right: 2vw;
+    }
+    .wrap-all{
+        margin-bottom: 55vw;
+        margin-top: 10vw;
+    }
+    .footer{
+        height: 30vw;
+    }
+}

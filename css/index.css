@@ -218,10 +218,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 28vw;
-    height: 11vw;
-}
-.callby:hover{
-    transform: rotate( -4deg );
+    height: 12vw;
+    cursor: pointer;
 }
 .pen{
     position: relative;
@@ -230,8 +228,9 @@ body {
     background-image: url('../이미지/pen.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 17vw;
+    width: 15vw;
     height: 3vw;
+    cursor: pointer;
 }
 .pen:hover{
     transform: rotate( -4deg );
