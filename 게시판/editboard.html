@@ -11,7 +11,7 @@
     <title>별빛신사리</title>
 </head>
 <body>
-    <div class="title_text">
+    <div class="title_text" onclick="location.href='../index.html'" style="cursor:pointer;">
         <div class="board_text" id="text1">별</div>
         <div class="board_text" id="text2">빛</div>
         <div class="board_text" id="text3">신</div>
@@ -19,10 +19,10 @@
         <div class="board_text" id="text5">리</div>
     </div>
     <div class="button">
-        <a href="#" class="myButton">상권 둘러보기</a>
-        <a href="#" class="myButton">별빛신사리??</a>
-        <a href="#" class="myButton">게시판</a>
-        <a href="#" class="myButton">play game!</a>
+        <a href="../상권둘러보기/stores.html" class="myButton">상권 둘러보기</a>
+        <a href="../별빞신사리란/staright.html" class="myButton">별빛신사리??</a>
+        <a href="../게시판/noticeboard.html" class="myButton">게시판</a>
+        <a href="../퍼즐게임/game.html" class="myButton">play game!</a>
     </div>
     <div class="editboard">
         <div id="selector">
@@ -31,8 +31,8 @@
                 <input type="text" placeholder="000점포 등록 신청합니다." class="input">
             </div>
             <div class="button2">
-                <a href="#" class="myButton2">점포 신청</a>
-                <a href="#" class="myButton2">방문 리뷰</a>
+                <a href="../게시판/editboard.html" class="myButton2">점포 신청</a>
+                <a href="../게시판/review.html" class="myButton2">방문 리뷰</a>
             </div>
             <div class="edittext">
                 <div class="header_edit">작성자 : </div>
@@ -59,7 +59,7 @@
                     <input class = "file" type="file" onchange="readURL(this);"> 
                 </div>
             </div>
-            <button class="save" type="button">등록</button>
+            <button class="save" type="button" onclick="location.href='../게시판/noticeboard.html'">등록</button>
             </div>
     </div>
 
