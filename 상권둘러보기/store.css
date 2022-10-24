@@ -156,6 +156,9 @@ html{
     margin-top: 88px;
     position: relative;
 }
+.search{
+    float: right;
+}
 .title{
     border: 8px double black;
     border-left: hidden;
@@ -209,6 +212,11 @@ html{
     width: 65%;
     color: #BDBDBD;
     transform: rotate(3deg);
+}
+.search2{
+    position: absolute;
+    bottom: -2.7em;
+    right: 0;
 }
 .nextBtn{
     display : flex;
