@@ -8,7 +8,6 @@ html{
 	position: relative;
 	margin: 0;
     background-image: url('../이미지/backgroundimg.png');
-    background-repeat: no-repeat;
 }
 
 /* header 글자  */
